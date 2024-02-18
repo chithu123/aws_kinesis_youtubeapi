@@ -51,15 +51,15 @@ def main(channel_name):
     # AWS Configuration
     your_kinesis_stream_name = "youtube_data_project"  # Replace with your actual stream name
     aws_region = "us-east-2"
-    aws_access_key_id = "AKIA6C3RWDHYTK3NQPK6"
-    aws_secret_access_key = "KqLXcI+PK+D90nyOsHh/LsmCqVWEIEn4uMutqOlH"
-    kinesis_stream_arn = "arn:aws:kinesis:us-east-2:968216680945:stream/youtube_data_project"
+    aws_access_key_id = "#"
+    aws_secret_access_key = "#"
+    kinesis_stream_arn = "##"
 
     # Initialize Kinesis client
     kinesis_client = boto3.client('kinesis', region_name=aws_region, aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
 
     # YouTube API Configuration
-    youtube_api_key = "AIzaSyDrn3gK6lEzC23tsPOQl4n78pAKT7teKUg"
+    youtube_api_key = "#"
     youtube = connect_to_api(youtube_api_key)
 
     # Get Channel Details
